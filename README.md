@@ -27,6 +27,12 @@ Whether you are a traditional painter working with oil/acrylic, an art student l
 2. Transfer or open the `canvagrid.apk` file on your Android device.
 3. Allow installation from unknown sources if prompted by your system.
 
+## Video Demo
+
+Watch a short walkthrough of CanvaGrid in action:
+
+**[Click here to watch the full Video Demo](https://youtu.be/uuf7gRLMY0g)**
+
 ## Architecture & Tech Stack
 
 * **Platform:** Native Android (Java)
