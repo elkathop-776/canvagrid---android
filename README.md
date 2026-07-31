@@ -2,7 +2,7 @@
 
 *Developed by Elpida-Kalliopi Anthopoulou | Aristotle University of Thessaloniki (June 2026)*
 
-[![Latest Release](https://img.shields.io/github/v/release/elkathop-776/canvagrid---android?color=green&label=Download%20APK)](https://github.com/elkathop-776/canvagrid---android/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/elkathop-776/canvagrid---android?color=green&label=Download%20APK)](https://github.com/elkathop-776/canvagrid-android/releases/latest)
 
 
 ## Overview
