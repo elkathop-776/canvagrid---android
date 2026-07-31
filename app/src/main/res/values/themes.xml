@@ -1,0 +1,27 @@
+<resources>
+    <style name="Base.Theme.CanvaGrid" parent="Theme.Material3.Dark">
+        <item name="colorPrimary">@color/oxblood</item>
+        <item name="colorPrimarySurface">@color/oxblood</item>
+        <item name="colorSurface">@color/oxblood</item>
+
+        <item name="android:statusBarColor">@color/grey_2</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+
+        <item name="android:navigationBarColor">@color/grey_2</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="actionBarStyle">@style/Widget.CanvaGrid.ActionBar</item>
+        <item name="materialAlertDialogTheme">@style/Theme.MaterialComponents.DayNight.Dialog.Alert</item>
+    </style>
+
+    <style name="Widget.CanvaGrid.ActionBar" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/oxblood</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="elevation">0dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="Theme.CanvaGrid" parent="Base.Theme.CanvaGrid" />
+</resources>

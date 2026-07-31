@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">CanvaGrid</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo">CanvaGrid</string>
+    <string name="logo_br">~Grid Assistant for your Canvas~</string>
+
+    <string name="new_project">New Project</string>
+    <string name="saved_projects">Saved Projects</string>
+    <string name="canva_suggest">Suggest Canvas Size</string>
+    <string name="help">Help</string>
+
+    <string name="select_img">Select Image from Gallery</string>
+    <string name="grid_size">Grid Size</string>
+    <string name="grid_opacity">Grid Opacity</string>
+    <string name="grid_color">Grid Color</string>
+    <string name="save_options">Save</string>
+    <string name="save_gallery">Save to Gallery</string>
+    <string name="save_project">Save to Projects</string>
+    <string name="project_name">Project Name</string>
+
+    <string name="grid_size_opacity">Grid Size: %1$dx%2$d | Opacity: %3$d%%</string>
+    <string name="save_project_preview">Project Preview</string>
+
+    <string name="select_img_an">Select Image to Analyze</string>
+    <string name="dimensions">Original: %1$d x %2$d px</string>
+    <string name="grid_suggest">Suggested Grid: %1$d lines</string>
+    <string name="open_editor">Open Editor with this Grid</string>
+    <string name="suggest_canva">Suggested Canvas: %1$d x %2$d</string>
+
+    <!-- Strings used for help cards -->
+    <string name="step_title">Step Title</string>
+    <string name="step_desc">Step Detailed Description</string>
+
+    <!-- Strings used for accessibility descriptions -->
+    <string name="help_desc">Help regarding app usage</string>
+    <string name="imgView_desc">User canvas image viewport</string>
+    <string name="color_grid_red">Set Grid Color to Red</string>
+    <string name="color_grid_green">Set Grid Color to Green</string>
+    <string name="color_grid_blue">Set Grid Color to Blue</string>
+    <string name="color_grid_white">Set Grid Color to White</string>
+    <string name="color_grid_black">Set Grid Color to Black</string>
+    <string name="project_preview">Project Image Preview</string>
+    <string name="full_preview">Full Project Image Preview Overlay</string>
+    <string name="close_preview">Close Project Image Preview</string>
+    <string name="help_icon">Help Icon Information Toggle</string>
+</resources>

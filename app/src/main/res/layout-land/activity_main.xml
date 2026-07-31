@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/logo"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_canva_suggest"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/subTitle"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:text="@string/logo_br"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="@+id/mainTitle"
+        app:layout_constraintEnd_toEndOf="@+id/mainTitle"
+        app:layout_constraintTop_toBottomOf="@+id/mainTitle"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/btn_canva_suggest"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/canva_suggest"
+        android:backgroundTint="@color/oxblood"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mainTitle"
+        android:layout_marginEnd="32dp" />
+
+    <Button
+        android:id="@+id/btn_new_project"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/oxblood"
+        android:text="@string/new_project"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btn_canva_suggest"
+        app:layout_constraintEnd_toEndOf="@+id/btn_canva_suggest"
+        app:layout_constraintStart_toStartOf="@+id/btn_canva_suggest" />
+
+    <Button
+        android:id="@+id/btn_saved_projects"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/saved_projects"
+        android:backgroundTint="@color/oxblood"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/btn_canva_suggest"
+        app:layout_constraintEnd_toEndOf="@+id/btn_canva_suggest"
+        app:layout_constraintStart_toStartOf="@+id/btn_canva_suggest" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

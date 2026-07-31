@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.canvagrid.MainActivity">
+
+    <item
+        android:id="@+id/menu_help"
+        android:icon="@drawable/baseline_help_white_24"
+        android:title="@string/help"
+        app:showAsAction="always"/>
+</menu>

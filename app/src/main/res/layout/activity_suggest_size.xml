@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_select_suggest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/oxblood"
+            android:fontFamily="monospace"
+            android:text="@string/select_img_an"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:id="@+id/iv_suggest_preview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/image"
+            android:contentDescription="@string/imgView_desc"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:id="@+id/ll_result_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:background="@color/oxblood"
+            android:padding="15dp"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/tv_dimensions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dimensions"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:typeface="serif"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_canva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/suggest_canva"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:fontFamily="monospace"
+                android:typeface="serif"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_suggestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/grid_suggest"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:fontFamily="monospace"
+                android:typeface="serif"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_go_to_editor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/oxblood"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="monospace"
+                android:typeface="serif"
+                android:text="@string/open_editor"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
